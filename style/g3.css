@@ -2,6 +2,113 @@
 .work-sans-normal-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
+}
+/* COMMON STTLE  */
+
+.btn{
+  font-weight: 600;
+  padding: 20px 25px;
+  background-color: #FF900E;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: 1.25rem;
+
+}
+
+.display-flex{
+  display: flex;
+}
+
+.dark-2{
+  color: #424242;
+}
+
+.dark-3{
+  color: #727272;
+}
+
+/* HEADER STYLE  */
+ .header{
+ background-color:#FFF4E7 ;
+ }
+
+
+
+/* NAV STYLE */
+.navbar{
+align-items: center;
+justify-content: space-between;
+}
+
+.brand-name{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #131313;
+
+}
+.nav-links{
+  
+}
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link{
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.banner, .navbar{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* BANNER STYLE  */
+
+.banner-content{
+
+  max-width:862px ;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px ;
+
+}
+
+
+
+.banner-title{
+  font-size: 4rem;
+
+}
+.banner-description{
+ font-size: 1rem;
+}
+
+.banner-img{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE MEDIA QUERY */
+@media screen and (max-width:575px) {
+  .navbar, .nav-links{
+    flex-direction: column;
+  }
+  
 }
