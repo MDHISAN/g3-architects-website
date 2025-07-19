@@ -283,6 +283,19 @@ font-weight: 500;
 }
 
 
+/* footer style */
+.footer{
+  background-color: #FFF4E7;
+  text-align: center;
+  margin-bottom: 216px;
+  margin-left: auto;
+  padding: 20px 0px;
+  border-radius: 8px;
+}
+.footer-description {
+  font-size: 1.25rem;
+  margin: 0px;
+  }
 
 
 
